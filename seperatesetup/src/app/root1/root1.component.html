@@ -1,0 +1,10 @@
+<p>
+  root works!
+</p>
+<button (click)="getFood()">get food in root</button>
+
+<table >
+	<tr *ngFor ="let food of tempObj">
+	<td>{{food.name}}</td><td>{{food.cost}}</td>
+	</tr>
+</table>
